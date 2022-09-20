@@ -1,108 +1,83 @@
-import product1 from '../../images/product4.jpg';
-import product2 from '../../images/product2.jpg';
-import product3 from '../../images/product4.jpg';
-
-import dessert4 from '../../images/dessert1.jpg';
-import dessert5 from '../../images/dessert2.jpeg';
-import dessert6 from '../../images/dessert6.jpg';
-
-export const burgerData = [
-    {
-        img: product1,
-        alt: 'Burger',
-        name: 'Mac Veggie',
-        desc: 'Mac veggie are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product2,
-        alt: 'Burger',
-        name: 'Cheese Burger',
-        desc: 'Cheese Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product3,
-        alt: 'Burger',
-        name: 'Crispy Burger',
-        desc: 'Crispy Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product1,
-        alt: 'Burger',
-        name: 'Mac Veggie',
-        desc: 'Mac veggie are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product2,
-        alt: 'Burger',
-        name: 'Cheese Burger',
-        desc: 'Cheese Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product3,
-        alt: 'Burger',
-        name: 'Crispy Burger',
-        desc: 'Crispy Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product1,
-        alt: 'Burger',
-        name: 'Mac Veggie',
-        desc: 'Mac veggie are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product2,
-        alt: 'Burger',
-        name: 'Cheese Burger',
-        desc: 'Cheese Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-    {
-        img: product3,
-        alt: 'Burger',
-        name: 'Crispy Burger',
-        desc: 'Crispy Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
-        price: '$15.5',
-        button: 'Add to Cart'
-    },
-]
+import product1 from '../../images/margherita1.jpg';
+import product2 from '../../images/veggie-supreme.jpg';
+import product3 from '../../images/tandoori-paneer.jpg';
+import product4 from '../../images/double-paneer-supreme.jpg';
+import product5 from '../../images/veg-kebab-surprise.jpg';
+import product6 from '../../images/triple-chicken-feast.jpg';
+import product7 from '../../images/chicken-tikka-supreme.jpg';
+import product8 from '../../images/double-chicken.jpg';
+import product9 from '../../images/classic-loaded-chicken-delight.jpg';
 
 export const pizzaData = [
     {
-        img: dessert4,
-        alt: 'Dessert',
-        name: 'Oreo Shake',
-        desc: "Taste the Oreo shake once, and You'll take it everytime",
+        img: product1,
+        alt: 'Pizza 1',
+        name: 'Margherita',
+        desc: "Pizza topped with cheesy dressing and mozzarella cheese",
+        price: '₹279',
+        button: 'Add to Cart'
+    },
+    {
+        img: product2,
+        alt: 'Burger',
+        name: 'Cheese Burger',
+        desc: 'Cheese Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
         price: '$15.5',
         button: 'Add to Cart'
     },
     {
-        img: dessert5,
-        alt: 'Dessert',
-        name: 'Brownie Shake',
-        desc: "Taste the Brownie Shake once, and You'll take it everytime",
+        img: product3,
+        alt: 'Burger',
+        name: 'Crispy Burger',
+        desc: 'Crispy Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
         price: '$15.5',
         button: 'Add to Cart'
     },
     {
-        img: dessert6,
-        alt: 'Dessert',
-        name: 'Cake',
-        desc: "Taste the cake once, and You'll take it everytime",
+        img: product4,
+        alt: 'Burger',
+        name: 'Mac Veggie',
+        desc: 'Mac veggie are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
+        price: '$15.5',
+        button: 'Add to Cart'
+    },
+    {
+        img: product5,
+        alt: 'Burger',
+        name: 'Cheese Burger',
+        desc: 'Cheese Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
+        price: '$15.5',
+        button: 'Add to Cart'
+    },
+    {
+        img: product6,
+        alt: 'Burger',
+        name: 'Crispy Burger',
+        desc: 'Crispy Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
+        price: '$15.5',
+        button: 'Add to Cart'
+    },
+    {
+        img: product7,
+        alt: 'Burger',
+        name: 'Mac Veggie',
+        desc: 'Mac veggie are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
+        price: '$15.5',
+        button: 'Add to Cart'
+    },
+    {
+        img: product8,
+        alt: 'Burger',
+        name: 'Cheese Burger',
+        desc: 'Cheese Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
+        price: '$15.5',
+        button: 'Add to Cart'
+    },
+    {
+        img: product9,
+        alt: 'Burger',
+        name: 'Crispy Burger',
+        desc: 'Crispy Burger are a good source of fibre, with each burger pattie containing 1 serve of vegetables',
         price: '$15.5',
         button: 'Add to Cart'
     }

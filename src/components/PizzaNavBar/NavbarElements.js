@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import {NavLink as Link} from 'react-router-dom'
-import {FaHamburger} from 'react-icons/fa';
+import {FaPizzaSlice} from 'react-icons/fa';
 
 export const Nav = styled.nav`
     background: transparent;
@@ -39,7 +39,7 @@ export const NavIcon = styled.div`
     }
 `
 
-export const Bars = styled(FaHamburger)`
+export const Bars = styled(FaPizzaSlice)`
     font-size: 2rem;
     transform: translate(-50%, -15%);
 `;

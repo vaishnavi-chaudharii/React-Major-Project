@@ -6,7 +6,7 @@ const Navbar = ({toggle}) => {
     return (
         <Router>
             <Nav>
-                <NavLink to="/">Burger</NavLink>
+                <NavLink to="/pizza">Pizza</NavLink>
                 <NavIcon onClick={toggle}>
                     <p>Menu</p>
                     <Bars />
