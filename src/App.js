@@ -7,7 +7,8 @@ import Feature from './components/BurgerFeature';
 import Footer from './components/BurgerFooter';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Burger from './components/Burger/Burger';
-import Pizza from './components/Pizza/Pizza'
+import Pizza from './components/Pizza/Pizza';
+import Menucontainer from './components/Menu/Menucontainer';
 
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <Switch>
-        <Route path="/" exact component={Burger}/>
+        <Route path="/" exact component={Menucontainer}/>
+        <Route path="/burger" component={Burger}/>
         <Route path="/pizza" component={Pizza}/>
+
       </Switch>
     </div>
     </Router>
