@@ -53,6 +53,9 @@ function Navigbar(props) {
             <Link className="links" to="/pizza">
               Pizza
             </Link>
+            <Link className="links" to="/fries">
+              Fries
+            </Link>
             <Link className="links" to="#contactus">
               Contact Us
             </Link>

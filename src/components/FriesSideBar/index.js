@@ -1,5 +1,5 @@
 import React from 'react'
-import {SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute} from './SidebarElements'
+import {SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute} from './SideBarElements'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 const Sidebar = ({isOpen, toggle}) => {
