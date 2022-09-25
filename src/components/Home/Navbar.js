@@ -29,8 +29,8 @@ function Navigbar(props) {
 
   return (
     <>
-      <Navbar
-        bg="dark"
+        <Navbar
+        bg="light"
         variant="dark"
         sticky="top"
         className="navbar bg-sm-dark"
@@ -44,21 +44,21 @@ function Navigbar(props) {
         <Navbar.Collapse>
           {/* coment to add side bar  */}
           <Nav>
-            <Link className="links" to="/">
-              Home
-            </Link>
-            <Link className="links" to="/burger">
-              Burger
-            </Link>
-            <Link className="links" to="/pizza">
-              Pizza
-            </Link>
-            <Link className="links" to="#contactus">
-              Contact Us
-            </Link>
-            <Link className="links" id="signup" to="#signup">
-              Sign up
-            </Link>
+          <Link className="links" to="/">
+      Home
+    </Link>
+    <Link className="links" to="/burger">
+      Burger
+    </Link>
+    <Link className="links" to="/pizza">
+      Pizza
+    </Link>
+    <Link className="links" to="#contactus">
+      Contact Us
+    </Link>
+    <Link className="links" id="signup" to="#signup">
+      Sign up
+    </Link>
             <Sidebar menu={props.menu} filter={props.filter} shome={shome} />
           </Nav>
         </Navbar.Collapse>
