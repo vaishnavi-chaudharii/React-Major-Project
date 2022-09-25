@@ -43,6 +43,10 @@
   --bs-bg-opacity: ;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
+nav.navbar.bg-sm-dark.navbar.navbar-expand-sm.navbar-dark.bg-light.sticky-top {
+  --bs-bg-opacity: ;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
 .menu {
   position: absolute;
   right: 130px;
@@ -122,14 +126,13 @@ border-radius: 32px;
 #signup {
   position: absolute;
   right: 39px;
-  color: white;
-  padding: 8px;
+  
 }
-#signup:active {
+/* #signup:active {
   border: 2px solid grey;
   border-radius: 32px;
   background-color: #454545;
-}
+} */
 
 /* Home  */
 
@@ -159,7 +162,7 @@ border-radius: 32px;
 background: url("/public/images/Home/burger.jpg") center center no-repeat, -moz-linear-gradient(top, black, white);
 background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5, #d13531); */
   background-image: linear-gradient(to left, rgb(2 2 2 / 53%), rgb(2 2 2 / 53%)),
-    url("/src/images/bspon.webp");
+    url("/src/images/homebg.jpg");
   background-position: center;
   background-size: cover;
 
@@ -182,7 +185,7 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   justify-content: center;
   position: absolute;
   top: 161px;
-;
+
   border-radius: 12px;
   margin: 19px;
   /* font-family: "Baloo Bhai 2", cursive; */
@@ -191,7 +194,18 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   color: white;
   cursor: pointer;
 }
-
+#home .btnn {
+  padding: 5px 12px;
+  border: 2px solid white;
+  background-color: rgba(235, 76, 76, 0.829);
+  border-radius: 12px;
+  margin: 19px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
 #home .btnn:active {
   background-color: rgba(227, 0, 0, 0.829);
 }
@@ -240,14 +254,14 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   left: 0px;
   width: 100%;
   height: 438px;
-  background-image: linear-gradient(to left, rgb(2 2 2 / 53%), rgb(2 2 2 / 53%)),
-    url("/src/images/bspon.webp");
+  background-image:linear-gradient(to left, rgb(0 0 0 / 53%), rgb(0 0 0 / 53%)),
+    url("/src/images/spon.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
 
   z-index: -1;
-  opacity: 0.9;
+  opacity: 1;
 }
 .spon-title {
   margin-top: 30px;

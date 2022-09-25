@@ -29,8 +29,8 @@ function Navigbar(props) {
 
   return (
     <>
-      <Navbar
-        bg="dark"
+        <Navbar
+        bg="light"
         variant="dark"
         sticky="top"
         className="navbar bg-sm-dark"
