@@ -18,7 +18,7 @@ const MenuCard = ({ menuData }) => {
                       className="card-media"
                     />
                     <h2 className="card-title"> {name} </h2>
-                    <span className="card-description subtle">
+                    <span className="card-description">
                       {description}
                     </span>
                     {/* <div className="card-read">Read</div> */}

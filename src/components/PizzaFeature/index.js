@@ -4,8 +4,8 @@ import {FeatureContainer, FeatureButton} from './FeatureElements'
 const Feature = () => {
     return (
         <FeatureContainer>
-            <h1>Burger of the day</h1>
-            <p>Extra cheese burher with alot of cheese</p>
+            <h1>Pizza of the day Margherita</h1>
+            <p></p>
             <FeatureButton>Order Now</FeatureButton>
         </FeatureContainer>
 
