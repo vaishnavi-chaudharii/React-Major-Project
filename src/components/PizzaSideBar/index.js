@@ -12,6 +12,7 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarLink to="/">Home</SidebarLink>
             <SidebarLink to="/burger">Burgers</SidebarLink>
             <SidebarLink to="/pizza">Pizza</SidebarLink>
+            <SidebarLink to="/fries">Fries</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to="/">Order Now</SidebarRoute>

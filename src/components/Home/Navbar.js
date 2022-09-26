@@ -29,8 +29,8 @@ function Navigbar(props) {
 
   return (
     <>
-      <Navbar
-        bg="dark"
+        <Navbar
+        bg="light"
         variant="dark"
         sticky="top"
         className="navbar bg-sm-dark"
@@ -52,6 +52,9 @@ function Navigbar(props) {
             </Link>
             <Link className="links" to="/pizza">
               Pizza
+            </Link>
+            <Link className="links" to="/fries">
+              Fries
             </Link>
             <Link className="links" to="#contactus">
               Contact Us
