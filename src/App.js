@@ -9,6 +9,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Burger from './components/Burger/Burger';
 import Pizza from './components/Pizza/Pizza';
 import Fries from './components/Fries/Fries';
+import Popup from './components/Home/Popup';
 import Menucontainer from './components/Menu/Menucontainer';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/burger" component={Burger}/>
         <Route path="/pizza" component={Pizza}/>
         <Route path="/fries" component={Fries}/>
+        <Route path="/signup" component={Popup}/>
 
       </Switch>
     </div>

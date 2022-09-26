@@ -32,7 +32,6 @@ function Navigbar(props) {
 
   return (
     <>
-    {/* <Popup/> */}
         <Navbar
         bg="light"
         variant="dark"
@@ -63,7 +62,7 @@ function Navigbar(props) {
             <Link className="links" to="#contactus">
               Contact Us
             </Link>
-            <Link className="links" id="signup" to="#signup">
+            <Link className="links" id="signup" to="signup">
               Sign up
             </Link>
             <Sidebar menu={props.menu} filter={props.filter} shome={shome} />
