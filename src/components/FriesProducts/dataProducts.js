@@ -33,7 +33,7 @@ export const FriesData = [
         img: product3,
         alt: 'Fries',
         name: 'Crispy Fries',
-        desc: 'Extra Crispy',
+        desc: 'Extra Crispy with juicy mayonese and chilli sauce',
         price: '₹130',
         button: 'Add to Cart'
     },
@@ -57,7 +57,7 @@ export const FriesData = [
         img: product6,
         alt: 'Fries',
         name: 'Garlic Fries',
-        desc: 'Never will you need garlic paste again',
+        desc: 'Never will you need garlic paste',
         price: '₹220',
         button: 'Add to Cart'
     },
@@ -65,7 +65,7 @@ export const FriesData = [
         img: product7,
         alt: 'Fries',
         name: 'Matchstick',
-        desc: 'Thinnest fries ever',
+        desc: 'Thinnest fries ever and crispiest fries',
         price: '₹110',
         button: 'Add to Cart'
     },
@@ -73,7 +73,7 @@ export const FriesData = [
         img: product8,
         alt: 'Fries',
         name: ' Chilli Cheese Fries',
-        desc: 'Fries with cheese are good. Add a bit of chilli powder and experience a whole new taste',
+        desc: 'Fries with cheese are good. Add a bit of chilli powder',
         price: '₹175',
         button: 'Add to Cart'
     },

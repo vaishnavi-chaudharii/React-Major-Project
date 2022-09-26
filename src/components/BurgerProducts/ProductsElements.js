@@ -23,6 +23,7 @@ export const ProductCard = styled.div`
 
 export const ProductImg = styled.img`
     height: 300px;
+    object-fit: cover;
     min-width: 300px;
     max-width: 100%;
     box-shadow: 8px 8px #fdc500;

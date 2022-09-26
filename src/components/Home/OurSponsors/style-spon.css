@@ -51,7 +51,7 @@
 
 
 .card-title-spon {
-  font-family: 'Baloo Bhai 2', cursive;
+  
   font-size: 33px;
   font-weight: 300;
   line-height: 31px;
@@ -66,9 +66,9 @@
   font-weight: 200;
     line-height: 17px;
     margin: 10px 0;
-    font-family: 'Baloo Bhai 2';
+    
     color: white;
-    font-weight: bold;
+    
     font-size: 15px;
     text-align: center;
 }

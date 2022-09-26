@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  font-family: 'Kanit', sans-serif !important;
 }
 
 .links{
@@ -175,7 +176,7 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
 #home p {
   color: white;
   text-align: center;
-  font-weight: bold;
+  
 }
 .homeSe {
   margin-top: 65px;
@@ -190,7 +191,7 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   margin: 19px;
   /* font-family: "Baloo Bhai 2", cursive; */
   font-size: 22px;
-  font-weight: bold;
+  
   color: white;
   cursor: pointer;
 }
@@ -223,7 +224,7 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
 .h-primary {
   /* font-family: "Baloo Bhai 2", cursive; */
   color: white;
-  font-weight: bold;
+  font-weight: 600; 
   font-size: 57px;
   text-align: center;
 }
