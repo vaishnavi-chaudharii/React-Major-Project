@@ -6,10 +6,9 @@ const Welcomepage = () => {
       <div className="homeSe">
         <h1 className=" h-primary">Welcome to FoodCourt</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi vero
-          quo molestiae nesciunt aut! Deleniti laboriosam eligendi.
+        Welcome every morning with a smile. Look on the new day as another special gift from your Creator, another golden opportunity to complete what you were unable to finish your food.
         </p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+        <p>There is no love sincerer than the love of food.</p>
         <button className="btnn">Order Now</button>
       </div>
     </section>

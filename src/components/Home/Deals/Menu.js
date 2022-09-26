@@ -4,9 +4,9 @@ const Menu = [
     image: "images/Home/deaimg/images/piza.jpg",
     name: "pizza",
     category: "pizza",
-    price: "240₹",
+    price: "₹240",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+      " Pizza is like melted chesse, organic, chillflake, capisumm, onion, tomato in baked 450'c.",
   },
 
   {
@@ -14,18 +14,18 @@ const Menu = [
     image: "images/Home/deaimg/images/burger.jpg",
     name: "burger",
     category: "burger",
-    price: "250₹",
+    price: "₹250",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+      "Juicy, big, loaded with toppings of my choice. High quality beef medium to well with cheese.",
   },
   {
     id: 3,
     image: "images/Home/deaimg/images/fries.jpg",
     name: "fries",
     category: "fries",
-    price: "100₹",
+    price: "₹100",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+      "French fries, I have been obsessed with them since I was born. I like big, big steak fries,seasoned fries",
   },
 ];
 

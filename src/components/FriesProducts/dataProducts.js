@@ -18,7 +18,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Normal',
         desc: 'Tastiest, Crispiest fries you will ever eat',
-        price: '100',
+        price: '₹100',
         button: 'Add to Cart'
     },
     {
@@ -26,7 +26,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Cheese Fries',
         desc: 'Enjoy your fries with a blast of cheese',
-        price: '125',
+        price: '₹125',
         button: 'Add to Cart'
     },
     {
@@ -34,7 +34,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Crispy Fries',
         desc: 'Extra Crispy',
-        price: '130',
+        price: '₹130',
         button: 'Add to Cart'
     },
     {
@@ -42,7 +42,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Salty',
         desc: 'Fries with a dash of salt',
-        price: '130',
+        price: '₹130',
         button: 'Add to Cart'
     },
     {
@@ -50,7 +50,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Waffle fries',
         desc: 'Try out our newest recipe',
-        price: '250',
+        price: '₹250',
         button: 'Add to Cart'
     },
     {
@@ -58,7 +58,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Garlic Fries',
         desc: 'Never will you need garlic paste again',
-        price: '220',
+        price: '₹220',
         button: 'Add to Cart'
     },
     {
@@ -66,7 +66,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Matchstick',
         desc: 'Thinnest fries ever',
-        price: '110',
+        price: '₹110',
         button: 'Add to Cart'
     },
     {
@@ -74,7 +74,7 @@ export const FriesData = [
         alt: 'Fries',
         name: ' Chilli Cheese Fries',
         desc: 'Fries with cheese are good. Add a bit of chilli powder and experience a whole new taste',
-        price: '175',
+        price: '₹175',
         button: 'Add to Cart'
     },
     {
@@ -82,7 +82,7 @@ export const FriesData = [
         alt: 'Fries',
         name: 'Potato Tornado',
         desc: 'Enjoy this work of art with exquisite flavours',
-        price: '300',
+        price: '₹300',
         button: 'Add to Cart'
     },
 ]
@@ -93,7 +93,7 @@ export const dessertData = [
         alt: 'Dessert',
         name: 'Oreo Shake',
         desc: "Taste the Oreo shake once, and You'll take it everytime",
-        price: '180',
+        price: '₹180',
         button: 'Add to Cart'
     },
     {
@@ -101,7 +101,7 @@ export const dessertData = [
         alt: 'Dessert',
         name: 'Brownie Shake',
         desc: "Taste the Brownie Shake once, and You'll take it everytime",
-        price: '180',
+        price: '₹180',
         button: 'Add to Cart'
     },
     {
@@ -109,7 +109,7 @@ export const dessertData = [
         alt: 'Dessert',
         name: 'Cake',
         desc: "Taste the cake once, and You'll take it everytime",
-        price: '200',
+        price: '₹200',
         button: 'Add to Cart'
     }
 ]
