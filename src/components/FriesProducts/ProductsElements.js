@@ -19,6 +19,7 @@ export const ProductCard = styled.div`
     margin: 0 2rem;
     line-height: 2;
     width: 300px;
+    object-fit: contain;
 `
 
 export const ProductImg = styled.img`
@@ -26,6 +27,7 @@ export const ProductImg = styled.img`
     object-fit: cover;
     min-width: 300px;
     max-width: 100%;
+    object-fit: cover;
     box-shadow: 8px 8px #fdc500;
 `
 
