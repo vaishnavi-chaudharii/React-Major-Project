@@ -189,7 +189,6 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
 
   border-radius: 12px;
   margin: 19px;
-  /* font-family: "Baloo Bhai 2", cursive; */
   font-size: 22px;
   
   color: white;
@@ -203,7 +202,6 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   margin: 19px;
   font-family: "Baloo Bhai 2", cursive;
   font-size: 22px;
-  /* font-weight: bold; */
   color: white;
   cursor: pointer;
 }
@@ -217,30 +215,26 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   padding-top: 50px;
 }
 .bestdeals {
-  /* font-family: "Baloo Bhai 2", cursive; */
   background: black;
 }
 
 .h-primary {
-  /* font-family: "Baloo Bhai 2", cursive; */
   color: white;
   font-weight: 600; 
   font-size: 57px;
   text-align: center;
 }
 .h-secondary-deal {
-  /* font-family: "Baloo Bhai 2", cursive; */
   color: white;
   font-weight: bold;
   font-size: 42px;
-  /* text-shadow: 3px 3px rgb(117, 117, 117); */
+  text-shadow: 2px 2px black;
 }
 .h-secondary {
-  /* font-family: "Baloo Bhai 2", cursive; */
   color: white;
   font-weight: bold;
   font-size: 42px;
-  text-shadow: 3px 3px black;
+  text-shadow: 2px 2px black;
 }
 
 /* Sponsors */

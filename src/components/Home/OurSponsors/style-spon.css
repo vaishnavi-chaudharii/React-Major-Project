@@ -59,7 +59,7 @@
   text-transform: capitalize;
      color: white;
     /* font-weight: bold; */
-    text-shadow: 5px 5px #263030;
+    text-shadow: 3px 3px #263030;
 }
 
 .card-description {
