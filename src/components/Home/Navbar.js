@@ -7,11 +7,14 @@ import "./Home.css";
 import Sidebar from "./Sidebar";
 import MenuCard from "./Deals/MenuCard";
 import Home from "./Home";
+import Popup from "./Popup";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
+
 function Navigbar(props) {
   const [mhome, setmhome] = useState("Home");
+  const [openModal, setopenModal] = useState(false);
   const Para = (props) => {
     console.log(props.menuData);
     if (mhome == "Home") {
@@ -29,6 +32,7 @@ function Navigbar(props) {
 
   return (
     <>
+    {/* <Popup/> */}
         <Navbar
         bg="light"
         variant="dark"
