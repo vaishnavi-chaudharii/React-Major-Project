@@ -58,7 +58,7 @@
   margin: 10px 0;
   text-transform: capitalize;
      color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-shadow: 5px 5px #263030;
 }
 

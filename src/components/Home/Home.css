@@ -203,7 +203,7 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   margin: 19px;
   font-family: "Baloo Bhai 2", cursive;
   font-size: 22px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: white;
   cursor: pointer;
 }
@@ -233,7 +233,7 @@ background-image: url("/public/images/Home/burger.jpg"), linear-gradient(#eb01a5
   color: white;
   font-weight: bold;
   font-size: 42px;
-  text-shadow: 3px 3px rgb(117, 117, 117);
+  /* text-shadow: 3px 3px rgb(117, 117, 117); */
 }
 .h-secondary {
   /* font-family: "Baloo Bhai 2", cursive; */
